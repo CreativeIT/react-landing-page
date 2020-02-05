@@ -2,10 +2,12 @@ import Head from 'next/head'
 import Link from 'next/link'
 import './../styles/old-styles.scss';
 
+
+// export default () => ( <div className="index-page">Index page</div> )
 export default () => ( <div className="index-page">
 <Head>
 
-    <link rel="icon" type="image/png" href="images/images-old/favicon.png"/>
+    <link rel="icon" type="image/png" href="static/images/images-old/favicon.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=0.8"/>
     <meta charSet="UTF-8"/>
     <meta name="robots" content="all"/>
@@ -81,7 +83,7 @@ export default () => ( <div className="index-page">
             <div className="slider-window">
                 <div className="container__content container__content--animated">
                     <div className="container__content-item">
-                        <img src="images/images-old/person_1.gif" alt="consulting_men"/>
+                        <img src="static/images/images-old/person_1.gif" alt="consulting_men"/>
                         <h3>JS & UX/UI CONSULTING</h3>
                         <article>
                             What is the secret ingredient of creating a successful
@@ -91,7 +93,7 @@ export default () => ( <div className="index-page">
                         </article>
                     </div>
                     <div className="container__content-item">
-                        <img src="images/images-old/person_2.gif" alt="contributing_men"/>
+                        <img src="static/images/images-old/person_2.gif" alt="contributing_men"/>
                         <h3>OPEN SOURCE CONTRIBUTING</h3>
                         <article>
                             Our way to learn latest trends, get energy from
@@ -102,7 +104,7 @@ export default () => ( <div className="index-page">
                         </article>
                     </div>
                     <div className="container__content-item">
-                        <img src="images/images-old/person_3.gif" alt="training_men"/>
+                        <img src="static/images/images-old/person_3.gif" alt="training_men"/>
                         <h3>TRAINING & COACHING</h3>
                         <article>
                             We spread the possibilities of latest technologies
@@ -138,7 +140,7 @@ export default () => ( <div className="index-page">
             <div className="slider-window">
                 <div className="container__content container__content--animated">
                     <div className="container__content-item">
-                        <img src="images/images-old/angular.png" alt="angular_2"/>
+                        <img src="static/images/images-old/angular.png" alt="angular_2"/>
                         <h3>ANGULAR 2</h3>
                         <h4 className="label">Angular 2</h4>
                         <div>
@@ -148,7 +150,7 @@ export default () => ( <div className="index-page">
                         <h4 className="label">Gulp</h4>
                     </div>
                     <div className="container__content-item">
-                        <img src="images/images-old/react.png" alt="react"/>
+                        <img src="static/images/images-old/react.png" alt="react"/>
                         <h3>REACT</h3>
                         <div>
                             <h4 className="label">React</h4>
@@ -160,7 +162,7 @@ export default () => ( <div className="index-page">
                         <h4 className="label">Webpack</h4>
                     </div>
                     <div className="container__content-item">
-                        <img src="images/images-old/ui.png" alt="ui"/>
+                        <img src="static/images/images-old/ui.png" alt="ui"/>
                         <h3>UX/UI</h3>
                         <h4 className="label">Prototyping</h4>
                         <div>

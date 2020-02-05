@@ -30,7 +30,7 @@
             float: right;
             height: 40px;
             width: 40px;
-            background-image: url("/images/images-old/menu_icon.png");
+            background-image: url("/static/images/images-old/menu_icon.png");
             background-size: cover;
             &:focus, &:active {
                 opacity: 0.6;
@@ -67,10 +67,10 @@
     .slider {
         .button-left {
             margin-right: 15px;
-            background: url("/images/images-old/arrow_left.png");
+            background: url("/static/images/images-old/arrow_left.png");
         }
         .button-right {
-            background: url("/images/images-old/arrow_right.png");
+            background: url("/static/images/images-old/arrow_right.png");
             margin-left: 15px;
         }
         .button-left, .button-right {

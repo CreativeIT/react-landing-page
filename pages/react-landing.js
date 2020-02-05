@@ -76,7 +76,7 @@ const FEATURED_DATA = {
 
 const FeaturedSection = ({data}) => (
     <section className={data.orientation === 'left' ? "featured-project featured-project--left" : "featured-project featured-project--right"}>
-        <img src={`/images/${data.image}`} alt="" className="featured-project__img"/>
+        <img src={`/static/images/${data.image}`} alt="" className="featured-project__img"/>
         <div className="featured-project__content">
         <h3 className="featured-project__title">{data.title}</h3>
             <ul className="featured-project__list">
@@ -132,7 +132,7 @@ const DATA_SERVICES = [
 
 const ServicesItem = ({data}) => (
     <div className="services-item">
-        <img src={`/images/${data.img}`} alt="" className="services-item__img"/>
+        <img src={`/static/images/${data.img}`} alt="" className="services-item__img"/>
     <h3 className="services-item__title">{data.title}</h3>
         <p className="services-item__text">{data.text}</p>
     </div>
@@ -176,7 +176,7 @@ const CustomerReview = ({data}) => {
         <section className="customer-review">
             <p className="customer-review__quote" dangerouslySetInnerHTML={{__html: data.quote}}/>
             <div className="customer-review-profile">
-                <img src={`/images/${data.avatar}`} alt="" className="customer-review-profile__img"/>
+                <img src={`/static/images/${data.avatar}`} alt="" className="customer-review-profile__img"/>
                 <div className="customer-review-profile__body">
                 <h4 className="customer-review-profile__name">{data.name}</h4>
                 <p className="customer-review-profile__description">{data.role}</p>
@@ -223,7 +223,7 @@ const QUALITY_LIST = [
 const QualityItem = ({data}) => {
     return (
         <div className="quality-item">
-            <img src={`/images/${data.img}`} alt="" className="quality-item__img"/>
+            <img src={`/static/images/${data.img}`} alt="" className="quality-item__img"/>
             <p className="quality-item__text">{data.text}</p>
         </div>
     )
@@ -253,7 +253,7 @@ const Team = () => {
                     <h4 className="team-member__role">Head of React development team</h4>
                 </div>
                 <div className="team-member">
-                    <img src="/images/ihnat.png" alt="ihnat" className="team-member__avatar"/>
+                    <img src="/static/images/ihnat.png" alt="ihnat" className="team-member__avatar"/>
                     <div className="team-member__content">
                         <h3 className="team-member__name">Ihnat Kryshchyk</h3>
                         <h4 className="team-member__role">Head of React development team</h4>

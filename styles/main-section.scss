@@ -44,13 +44,13 @@ html {
 }
 
 .blot {
-    background-image: url('/images/blot.png');
+    background-image: url('/static/images/blot.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .underline {
-    background-image: url('/images/underline.svg');
+    background-image: url('/static/images/underline.svg');
     background-size: contain;
     background-position: bottom left;
     background-repeat: no-repeat;
@@ -96,7 +96,7 @@ html {
 .main-section {
     display: flex;
     flex-direction: column;
-    background-image: url('/images/main-section.svg');
+    background-image: url('/static/images/main-section.svg');
     background-size: 83.4*$wem;
     background-position: right top;
     background-repeat: no-repeat;
@@ -176,7 +176,7 @@ html {
                 &--harvard {
                     width: 22*$wem;
                     height: 12*$wem;
-                    background-image: url('/images/harvard.svg');
+                    background-image: url('/static/images/harvard.svg');
                     background-size: contain;
                     background-repeat: no-repeat;
                     @media #{$mobile} {
@@ -187,7 +187,7 @@ html {
                 &--pandg {
                     width: 13.6*$wem;
                     height: 12*$wem;
-                    background-image: url('/images/p&g.png');
+                    background-image: url('/static/images/p&g.png');
                     background-size: contain;
                     background-repeat: no-repeat;
                     @media #{$mobile} {
@@ -198,7 +198,7 @@ html {
                 &--renault {
                     width: 24.6*$wem;
                     height: 12*$wem;
-                    background-image: url('/images/renault.svg');
+                    background-image: url('/static/images/renault.svg');
                     background-size: contain;
                     background-repeat: no-repeat;
                     @media #{$mobile} {
@@ -210,7 +210,7 @@ html {
                 &--clutch {
                     width: 22.7*$wem;
                     height: 12*$wem;
-                    background-image: url('/images/clutch.svg');
+                    background-image: url('/static/images/clutch.svg');
                     background-size: contain;
                     background-repeat: no-repeat;
                     @media #{$mobile} {
@@ -221,7 +221,7 @@ html {
                 &--github {
                     width: 18.6*$wem;
                     height: 12*$wem;
-                    background-image: url('/images/github.svg');
+                    background-image: url('/static/images/github.svg');
                     background-size: contain;
                     background-repeat: no-repeat;
                     @media #{$mobile} {
@@ -232,7 +232,7 @@ html {
                 &--upwork {
                     width: 20.3*$wem;
                     height: 12*$wem;
-                    background-image: url('/images/upwork.svg');
+                    background-image: url('/static/images/upwork.svg');
                     background-size: contain;
                     background-repeat: no-repeat;
                     @media #{$mobile} {
@@ -258,7 +258,7 @@ html {
         padding: 1.3rem 1.6rem;
     }
     &__logo {
-        background-image: url('/images/logo.svg');
+        background-image: url('/static/images/logo.svg');
         background-repeat: no-repeat;
         background-size: contain;
         width: 31.2*$wem;
@@ -572,7 +572,7 @@ html {
                 width: 108%;
                 height: 108%;
                 @extend .blot;
-                background-image: url('/images/blot-long.png');
+                background-image: url('/static/images/blot-long.png');
                 background-size: 100% 100%;
             }
         }
@@ -630,7 +630,7 @@ html {
     display: flex;
     flex-direction: row;
     padding: 0 $primaryMargin;
-    background-image: url('/images/who-bg.svg');
+    background-image: url('/static/images/who-bg.svg');
     background-size: 75*$wem;
     background-position: left 0*$wem;
     background-repeat: no-repeat;
@@ -805,13 +805,13 @@ html {
                 height: 4.8rem;
             }
             &--linkedin {
-                background-image: url('/images/linkedin-small.svg');
+                background-image: url('/static/images/linkedin-small.svg');
                 background-repeat: no-repeat;
                 background-size: contain;
                 background-position: center;
             }
             &--github {
-                background-image: url('/images/github-small.svg');
+                background-image: url('/static/images/github-small.svg');
                 background-repeat: no-repeat;
                 background-size: contain;
                 background-position: center;
@@ -862,52 +862,52 @@ html {
             height: 7rem;
         }
         &--redux {
-            background-image: url('/images/redux.svg');
+            background-image: url('/static/images/redux.svg');
             background-size: contain;
             background-repeat: no-repeat;
         }
         &--rest {
-            background-image: url('/images/rest.svg');
+            background-image: url('/static/images/rest.svg');
             background-size: contain;
             background-repeat: no-repeat;
         }
         &--graph-ql {
-            background-image: url('/images/graph-ql.png');
+            background-image: url('/static/images/graph-ql.png');
             background-size: contain;
             background-repeat: no-repeat;
         }
         &--aws {
-            background-image: url('/images/aws.svg');
+            background-image: url('/static/images/aws.svg');
             background-size: contain;
             background-repeat: no-repeat;
         }
         &--bootstrap {
-            background-image: url('/images/bootstrap.png');
+            background-image: url('/static/images/bootstrap.png');
             background-size: contain;
             background-repeat: no-repeat;
         }
         &--node {
-            background-image: url('/images/node.svg');
+            background-image: url('/static/images/node.svg');
             background-size: contain;
             background-repeat: no-repeat;
         }
         &--ant {
-            background-image: url('/images/ant.svg');
+            background-image: url('/static/images/ant.svg');
             background-size: contain;
             background-repeat: no-repeat;
         }
         &--python {
-            background-image: url('/images/python.svg');
+            background-image: url('/static/images/python.svg');
             background-size: contain;
             background-repeat: no-repeat;
         }
         &--material {
-            background-image: url('/images/material.svg');
+            background-image: url('/static/images/material.svg');
             background-size: contain;
             background-repeat: no-repeat;
         }
         &--react-native {
-            background-image: url('/images/react-native.svg');
+            background-image: url('/static/images/react-native.svg');
             background-size: contain;
             background-repeat: no-repeat;
         }
@@ -922,7 +922,7 @@ html {
 
 
 .contact {
-    background-image: url('/images/contact-img.svg');
+    background-image: url('/static/images/contact-img.svg');
     // background-size: ;
     background-position: right 31*$wem;
     background-repeat: no-repeat;
@@ -1098,7 +1098,7 @@ html {
         color: #8D8D8D;
         &-icon {
             display: block;
-            background-image: url('/images/skype.svg');
+            background-image: url('/static/images/skype.svg');
             background-size: contain;
             width: 10*$wem;
             height: 10*$wem;
@@ -1140,7 +1140,7 @@ html {
         }
     }
     &__logo {
-        background-image: url('/images/logo.svg');
+        background-image: url('/static/images/logo.svg');
         background-repeat: no-repeat;
         background-size: contain;
         width: 31.2*$wem;

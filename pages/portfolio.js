@@ -13,7 +13,7 @@ export default () => <div className="portfolio">
 
 
 
-        <link rel="icon" type="image/png" href="images/images-old/favicon.png"/>
+        <link rel="icon" type="image/png" href="static/images/images-old/favicon.png"/>
         <meta name="viewport" content="width=device-width, initial-scale=0.8"/>
         <meta charSet="UTF-8"/>
         <meta name="robots" content="all"/>
@@ -71,7 +71,7 @@ export default () => <div className="portfolio">
             <div className="projects-container">
                 <div className="project">
                     <a href="http://creativeit.io/material-dashboard-lite" title="Material Dashboard Lite" target="_blank">
-                        <img src="./images/images-old/projects/darkboard.png" className="project__image"/>
+                        <img src="static/images/images-old/projects/darkboard.png" className="project__image"/>
                     </a>
 
                     <div className="project__details">
@@ -100,16 +100,16 @@ export default () => <div className="portfolio">
 
                     <div className="project__heroes">
                         <h4>HEROES:</h4>
-                        <img src="images/images-old/alex_grey.png" title="Alex"/>
-                        <img src="images/images-old/vlada_grey.png" title="Vlada"/>
-                        <img src="images/images-old/dina_grey.png" title="Dina"/>
+                        <img src="static/images/images-old/alex_grey.png" title="Alex"/>
+                        <img src="static/images/images-old/vlada_grey.png" title="Vlada"/>
+                        <img src="static/images/images-old/dina_grey.png" title="Dina"/>
                     </div>
 
                     <div className="clearfix"></div>
                 </div>
                 <div className="project">
                     <a href="http://swayy.me/" title="Portfoleon" target="_blank">
-                        <img src="./images/images-old/projects/sfc-project.png" className="project__image"/>
+                        <img src="static/images/images-old/projects/sfc-project.png" className="project__image"/>
                     </a>
 
                     <div className="project__details">
@@ -136,16 +136,16 @@ export default () => <div className="portfolio">
 
                     <div className="project__heroes">
                         <h4>HEROES:</h4>
-                        <img src="images/images-old/roma_grey.png" title="Raman"/>
-                        <img src="images/images-old/alex_grey.png" title="Alex"/>
-                        <img src="images/images-old/dina_grey.png" title="Dina"/>
+                        <img src="static/images/images-old/roma_grey.png" title="Raman"/>
+                        <img src="static/images/images-old/alex_grey.png" title="Alex"/>
+                        <img src="static/images/images-old/dina_grey.png" title="Dina"/>
                     </div>
 
                     <div className="clearfix"></div>
                 </div>
                 <div className="project">
                     <a href="http://portfoleon.com/" title="Portfoleon" target="_blank">
-                        <img src="./images/images-old/projects/portfoleon.jpg" className="project__image"/>
+                        <img src="static/images/images-old/projects/portfoleon.jpg" className="project__image"/>
                     </a>
 
                     <div className="project__details">
@@ -170,9 +170,9 @@ export default () => <div className="portfolio">
 
                     <div className="project__heroes">
                         <h4>HEROES:</h4>
-                        <img src="images/images-old/roma_grey.png" title="Raman"/>
-                        <img src="images/images-old/vlada_grey.png" title="Vlada"/>
-                        <img src="images/images-old/dina_grey.png" title="Dina"/>
+                        <img src="static/images/images-old/roma_grey.png" title="Raman"/>
+                        <img src="static/images/images-old/vlada_grey.png" title="Vlada"/>
+                        <img src="static/images/images-old/dina_grey.png" title="Dina"/>
                     </div>
 
                     <div className="clearfix"></div>
