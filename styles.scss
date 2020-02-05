@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.react-landing {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Kelson Sans';
+    src: url('/fonts/Kelson/KelsonSans-Normal.woff');
+}
+
+@font-face {
+    font-family: 'Kelson Sans';
+    font-weight: 600;
+    src: url('/fonts/Kelson/KelsonSans-Bold.woff');
+}
+
+@font-face {
+    font-family: 'Kelson Sans';
+    font-weight: 200;
+    src: url('/fonts/Kelson/KelsonSans-Light.woff');
+}
+
+.react-landing {
+    @import './styles/main-section.scss';
+}

@@ -1,0 +1,28 @@
+// @font-face {
+//     font-family: "KelsonSansRegular";
+//     src: url("/fonts/KelsonSansRegular/KelsonSansRegular.eot");
+//     src: url("../fonts/KelsonSansRegular/KelsonSansRegular.eot?#iefix")format("embedded-opentype"),
+//         url("../fonts/KelsonSansRegular/KelsonSansRegular.woff") format("woff"),
+//         url("../fonts/KelsonSansRegular/KelsonSansRegular.ttf") format("truetype");
+//     font-style: normal;
+//     font-weight: normal;
+// }
+
+
+
+@font-face {
+    font-family: 'Kelson Sans';
+    src: url('/fonts/Kelson/KelsonSans-Normal.woff');
+}
+
+@font-face {
+    font-family: 'Kelson Sans';
+    font-weight: 600;
+    src: url('/fonts/Kelson/KelsonSans-Bold.woff');
+}
+
+@font-face {
+    font-family: 'Kelson Sans';
+    font-weight: 200;
+    src: url('/fonts/Kelson/KelsonSans-Light.woff');
+}
