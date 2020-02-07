@@ -1054,6 +1054,26 @@ html {
             line-height: 2.2rem;
         }
     }
+
+    &__after-sent {
+        width: 72.8*$wem;
+        margin-top: 12.7*$wem;
+        &__title {
+            @extend .text;
+            font-weight: bold;
+            font-size: 3.4*$wem;
+            line-height: 4.1*$wem;
+            color: #000000;
+        }
+        &__text {
+            @extend .text;
+            font-weight: normal;
+            font-size: 3.0*$wem;
+            line-height: 3.5*$wem;
+            color: #000000;
+            margin-top: 2.4*$wem;
+        }
+    }
 }
 
 
@@ -1150,8 +1170,37 @@ html {
         }
     }
     &__network {
+        display: flex;
+        flex-direction: row;
         &-item {
-
+            display: flex;
+            width: 8*$wem;
+            height: 8*$wem;
+            &--fb {
+                background-image: url('/static/images/facebook.png');
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+            &--in {
+                background-image: url('/static/images/linkedin-small.svg');
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+            &--github {
+                background-image: url('/static/images/github-link.svg');
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+            &--dribble {
+                background-image: url('/static/images/dribble.svg');
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+            &--behance {
+                background-image: url('/static/images/behance.svg');
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
         }
     }
     &__location {

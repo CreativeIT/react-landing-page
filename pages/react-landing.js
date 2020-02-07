@@ -313,7 +313,7 @@ const How = () => {
 const Hey = () => (
     <div className="hey">
         <div className="hey__wrap">
-            <img src="./images/raman.png" alt="" className="hey__avatar"/>
+            <img src="./static/images/raman.png" alt="" className="hey__avatar"/>
             <div className="hey__content">
                 <h3 className="hey__title">Hey, THERE!</h3>
                 <p className="hey__text">My name is Raman, I am a CEO at CreativeIT. We can arrange a meeting directly on Skype.</p>
@@ -332,11 +332,11 @@ const Footer = () => {
             <div className="landing-footer__top">
                 <a href="" className="landing-footer__logo"></a>
                 <div className="landing-footer__network">
-                    <a href="" className="landing-footer__network-item footer__network-item--fb"></a>
-                    <a href="" className="landing-footer__network-item footer__network-item--in"></a>
-                    <a href="" className="landing-footer__network-item footer__network-item--github"></a>
-                    <a href="" className="landing-footer__network-item footer__network-item--drible"></a>
-                    <a href="" className="landing-footer__network-item footer__network-item--fb"></a>
+                    <a href="" className="landing-footer__network-item landing-footer__network-item--fb"></a>
+                    <a href="" className="landing-footer__network-item landing-footer__network-item--in"></a>
+                    <a href="" className="landing-footer__network-item landing-footer__network-item--github"></a>
+                    <a href="" className="landing-footer__network-item landing-footer__network-item--dribble"></a>
+                    <a href="" className="landing-footer__network-item landing-footer__network-item--behance"></a>
                 </div>
                 <div className="landing-footer__top-right">
                     <p className="landing-footer__location">Based in Minsk, Belarus, <br/>Eastern Europe (UTC +3)</p>

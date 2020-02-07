@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import axios from 'axios';
+import { useForm } from '@formcarry/react';
 // import MailSentBlock from './MailSentBlock';
 const validator = require("email-validator");
 // const YOUR_FORMSPREE_EMAIL = 'ik@foliage.io';
@@ -98,30 +100,37 @@ export default class Contact extends Component {
 
   sentEmail(data) {
     let that = this;
-    fetch(POST_URL, {
-        method: 'POST',
-        body: JSON.stringify({data}),
-        mode: 'cors',
-        headers: {
-          'Accept': 'application/json',
-          'Content-Type': 'application/json'
-        }
-        // headers: {
-        //   'Content-Type': 'application/json'
-        // }
-      })
+    // fetch(POST_URL, {
+    //     method: 'POST',
+    //     body: JSON.stringify({data}),
+    //     mode: 'cors',
+    //     headers: {
+    //       'Accept': 'application/json',
+    //       'Content-Type': 'application/json'
+    //     }
+    //     // headers: {
+    //     //   'Content-Type': 'application/json'
+    //     // }
+    //   })
+      axios.post(
+        "https://formcarry.com/s/EhaR7m9IoFU",
+        data,
+        { headers: { "Accept": "application/json" } }
+      )
       .catch(e => {
         // Some error handling you should probably be doing... again, if you're a weenie
+        throw "Error sending form"
       })
       // .then(r => r.json())
       .then(response => {
-        if (response.statusText === 'OK') {
+        debugger
+        if (response.status === 200) {
           console.log(response);
           that.setState({
             mailSent: true,
             isLoading: false
           }, () => {
-            window.scrollTo(0, 0);
+            // window.scrollTo(0, 0);
           })
         }
         else {
@@ -136,7 +145,19 @@ export default class Contact extends Component {
     if (this.state.mailSent) {
       return (
         // <MailSentBlock name={this.state.name}/>
-        <div>Sent</div>
+        <div className="contact contact-sent">
+            <a id="contact"></a>
+            <h3 className="contact__title">Have a React project to discuss?
+                <br/><span>Contact us!</span>
+            </h3>
+            <p className="contact__text">We provide consultancy on React development, project roadmapping and work planning.  </p>
+            <div className="contact__after-sent">
+              <h3 className="contact__after-sent__title">Thanks for filling out our form!</h3>
+              <p className="contact__after-sent__text">
+                We will look over your message and get back to you shortly
+              </p>
+            </div>
+      </div>
       )
     }
 
@@ -149,7 +170,7 @@ export default class Contact extends Component {
             <h3 className="contact__title">Have a React project to discuss?
                 <br/><span>Contact us!</span>
             </h3>
-            <p className="contact__text">We provide consultancy on React development, project roadmapping and work planning. </p>
+            <p className="contact__text">We provide consultancy on React development, project roadmapping and work planning.  </p>
             <form className="contact__section-block-form">
                 <div className="contact__head">
 
