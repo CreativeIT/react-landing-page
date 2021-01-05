@@ -14,7 +14,7 @@
   "dependencies": {
     "@formcarry/react": "^1.0.2",
     "@zeit/next-sass": "^1.0.1",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "email-validator": "^2.0.4",
     "next": "^9.1.7",
     "node-sass": "^4.13.0",
