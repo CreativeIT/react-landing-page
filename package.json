@@ -16,7 +16,7 @@
     "@zeit/next-sass": "^1.0.1",
     "axios": "^0.19.2",
     "email-validator": "^2.0.4",
-    "next": "^9.1.7",
+    "next": "^11.1.0",
     "node-sass": "^4.13.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
